@@ -3,6 +3,7 @@ Calculator
 Version: 1.0<br/>
 Author: Wojciech Dasiukiewicz<br/>Website: www.ninjacode.pl<br/>
 Calculator making calculations from string. Currently methods +,-,*,/
+Live version: http://ninjacode.pl/projects/calculator
 
 How to use?
 ==========
