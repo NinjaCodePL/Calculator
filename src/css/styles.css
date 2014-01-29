@@ -1,0 +1,129 @@
+/* 
+    Document   : styles
+    Created on : 2014-01-29, 02:08:14
+    Author     : wojciechdasiukiewicz
+    Description:
+        Purpose of the stylesheet follows.
+*/
+html,body{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: "Arial",sans-serif;
+    background: #f1f1f1;
+}
+.outer{
+    width: 100%;
+    float: left;
+}
+.inner{
+    width: 960px;
+    margin: 0 auto;
+}
+#logo{
+    padding: 20px 0 0 0;
+}
+#logo img{
+    width: 150px;
+    border-radius: 300px;
+    border: 5px solid black;
+}
+#logo h1{
+    font-size: 20px;
+    margin-top: 0px;
+}
+#calculator{
+    background: url(../img/clalc.png) no-repeat;
+    height: 440px;
+    width: 330px;
+    background-size: contain;
+    margin: 0 auto;
+}
+#calculator input[type="text"]{
+    margin-top: 40px;
+    height: 30px;
+    width: 250px;
+    background: #FFFFFF;
+    text-align: right;
+    padding-right: 10px;
+    border: none;
+}
+.button{
+    cursor: pointer;
+    background: none;
+    border: none;
+    opacity: 0;
+}
+.number_button{
+    float: left;
+    width: 60px;
+    height: 52px;
+}
+#one{
+    margin: 236px 0 0 33px;
+}
+#two{
+    margin: 236px 0 0 7px;
+}
+#three{
+    margin: 236px 0 0 7px;
+}
+#four{
+    margin: 181px 0 0 -194px;
+}
+#five{
+    margin: 181px 0 0 -127px;
+}
+#six{
+    margin: 181px 0 0 -59px;
+}
+#seven{
+    margin: 127px 0 0 -195px;
+}
+#eight{
+    margin: 127px 0 0 -127px;
+}
+#nine{
+    margin: 127px 0 0 -59px;
+}
+#zero{
+    margin: 294px 0 0 -197px;
+    height: 42px;
+    width: 130px; 
+}
+#equals{
+    margin: 234px 0 0 6px;
+    float: left;
+    width: 60px;
+    height: 112px;
+}
+#minus{
+    margin: -219px 0 0 234px;
+    float: left;
+    width: 60px;
+    height: 48px;
+}
+#multiplication{
+    margin: -270px 0 0 234px;
+    float: left;
+    width: 60px;
+    height: 48px;
+}
+#division{
+    margin: -270px 0 0 164px;
+    float: left;
+    width: 60px;
+    height: 48px;
+}
+#plus{
+    margin: -270px 0 0 99px;
+    float: left;
+    width: 60px;
+    height: 48px;
+}
+#clear{
+    margin: -270px 0 0 31px;
+    float: left;
+    width: 60px;
+    height: 48px;
+}
